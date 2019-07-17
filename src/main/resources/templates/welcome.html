@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layout/default">
+
+<head>
+    <title>welcome</title>
+<!--    <link rel="stylesheet"-->
+<!--          href="../../static/css/welcome/welcome.css"-->
+<!--          th:href="@{/css/welcome/welcome.css}" />-->
+</head>
+<body>
+
+<section layout:fragment="content">Welcome to acgtofe!</section>
+
+<p>id: <span th:text="${myData.id}">mock id</span></p>
+<p>value: <span th:text="${myData.value}">mock value</span></p>
+
+</body>
+</html>

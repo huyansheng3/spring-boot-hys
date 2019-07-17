@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title layout:title-pattern="$CONTENT_TITLE - $DECORATOR_TITLE">acgtofe</title>
+<!--        <link rel="stylesheet"-->
+<!--              href="../../static/css/common/common.css"-->
+<!--              th:href="@{/css/common/common.css}" />-->
+    </head>
+    <body>
+
+        <header>public header</header>
+
+        <section layout:fragment="content">page main content</section>
+
+        <footer>public footer</footer>
+
+<!--        <script src="../../static/js/common/common.js"-->
+<!--                th:src="@{/js/common/common.js}"></script>-->
+
+    </body>
+</html>
